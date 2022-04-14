@@ -1,0 +1,22 @@
+[package]
+name = "emvg"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glutin = "0.28"
+ffmpeg-next = "4.4"
+cpal = "0.13"
+dasp = "0.11"
+dasp_envelope = "0.11"
+dasp_frame = "0.11"
+dasp_sample = "0.11"
+hound = "3.4"
+portaudio = "0.7"
+jack = "0.8"
+time_calc = "0.13"
+rodio = "0.14"
+gfx = "0.18.2"
+gfx_window_glutin = "0.31"
